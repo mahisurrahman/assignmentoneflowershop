@@ -42,7 +42,7 @@
     padding-top: 20px;
 }
 
-.contentcolumn button {
+.universalbutton {
     padding: 10px 23px;
     border: none;
     background-color: #E55473;
@@ -52,24 +52,22 @@
     margin-top: 10px;
     border-radius: 5px;
 }
-
+/* Banner Section Ends Here  */
 
 
 
 /* Main Section Starts */
-main {
+/* main {
     padding: 100px 200px;
-}
-
+} */
 
 /* Our Featured Flower Section CSS */
-/* Featured Images  */
 .featuredh3 {
     color: #272727;
     text-align: center;
     font-size: 30px;
     font-weight: 800;
-    padding-top: 10px;
+    padding-top: 100px;
 }
 
 .featuredp {
@@ -85,6 +83,7 @@ main {
     display: flex;
     margin-top: 70px;
     margin-left: -30px!important;
+    padding: 0 200px;
 }
 
 .flowerimages {
@@ -116,6 +115,7 @@ main {
 .featuredimagetitle {
     display: flex;
     justify-content: space-around;
+    padding: 0 200px;
 }
 
 .imagetitles{
@@ -142,7 +142,6 @@ main {
 .titlethree{
     margin-left: 30px!important;
 }
-
 /* featured section ends here  */
 
 
@@ -152,7 +151,8 @@ main {
     padding: 50px 30px 50px 30px;
     background: rgba(39, 39, 39, 0.05);
     justify-content: space-around;
-    margin-top: 100px;
+    margin: 100px 200px 100px 190px;
+    padding: 40px 20px;
 }
 
 .deliveryfeatures{
@@ -165,3 +165,52 @@ main {
     font-weight: 600;
 
 }
+/* Delivery Section Ends Here  */
+
+/* Hot Sale Section Starts Here */
+.hotsale{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 250px;
+}
+
+.hotsaletexts{
+    margin-right: 150px;
+}
+
+.hotsale h3{
+    padding-top: 100px;
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hotsale p{
+    color: gray;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+.hotsalebutton{
+    text-align: center!important;
+}
+
+.hotsaleimage img{
+    width: 238px;
+    height: 300px;
+}
+/* hot sale section ends  */
+
+
+/* Instagram Section CSS  */
+
+
+
+
+
+
