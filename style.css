@@ -1,3 +1,4 @@
+/* Universal Selector */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
+
+/* Banner Section Css */
 .bannersection {
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
@@ -17,19 +22,19 @@
     margin-bottom: -5px;
 }
 
-.contentcolumn{
+.contentcolumn {
     margin-right: 90px;
     padding-top: 70px;
 }
 
 .contentcolumn h2 {
     color: #272727;
-    font-size:55px;
+    font-size: 55px;
     font-weight: 800;
     line-height: 60px;
 }
 
-.contentcolumn p{
+.contentcolumn p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 13px;
     font-weight: 400;
@@ -37,7 +42,7 @@
     padding-top: 20px;
 }
 
-.contentcolumn button{
+.contentcolumn button {
     padding: 10px 23px;
     border: none;
     background-color: #E55473;
@@ -58,6 +63,7 @@ main {
 
 
 /* Our Featured Flower Section CSS */
+/* Featured Images  */
 .featuredh3 {
     color: #272727;
     text-align: center;
@@ -77,20 +83,85 @@ main {
 
 .featuredimages {
     display: flex;
+    margin-top: 70px;
+    margin-left: -30px!important;
 }
 
 .flowerimages {
     border-radius: 300px 300px 0px 0px;
-    height: 900px;
 }
 
-.flowerone{
+.flowerone, .flowertwo, .flowerthree{
     background: rgba(167, 33, 98, 0.15);
-    width: 300px;
-    height: 300px;
+    padding: 10px;
+    margin: 0px 20px;
 }
 
+.flowertwo{
+    background: rgba(5, 151, 160, 0.15)!important;
+}
+.flowerthree{
+    background: rgba(71, 125, 17, 0.15)!important;
+}
+
+.flowerone >img, .flowertwo>img, .flowerthree>img{
+    width: 290px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+/* featured image section ends here  */
+
+/* Featured Image Title Section Starts Here  */
 .featuredimagetitle {
     display: flex;
     justify-content: space-around;
+}
+
+.imagetitles{
+    margin-top: 20px;
+}
+
+.imagetitles p{
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.titleone{
+    margin-left: -20px!important;
+}
+
+.titletwo{
+    margin-left: 60px!important;
+}
+
+.titlethree{
+    margin-left: 30px!important;
+}
+
+/* featured section ends here  */
+
+
+/* Delivery Section Starts  */
+.delivery{
+    display: flex;
+    padding: 50px 30px 50px 30px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.deliveryfeatures{
+    text-align: center;
+}
+
+.deliveryfeatures p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 12px;
+    font-weight: 600;
+
 }
