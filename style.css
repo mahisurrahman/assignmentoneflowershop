@@ -301,6 +301,57 @@ nav {
 
 /* Subscribtion Section Ends Here  */
 
+/* Owners Details CSS  */
+.ownerdetails{
+    display: flex;
+    margin: 0!important;
+    background-color: #E55473;
+}
+
+.ownersimage img{
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+    margin-bottom: -5px;
+}
+
+.ownerscontext{
+    margin-left: 160px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.ownerscontext h3{
+    font-size: 55px;
+    text-align: left;
+}
+
+.ownerparagraph{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.ownersinfo{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.socials{
+    display: flex;
+    margin-left: -10px;
+    padding-top: 20px;
+}
+
+.socials img{
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+/* Owner Section Ends Here  */
 
 
 /* Footer Section Starts */
