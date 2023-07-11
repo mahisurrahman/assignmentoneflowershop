@@ -6,7 +6,32 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Navbar Menu CSS   */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.1);
+}
 
+.navlogo {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navmenu a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    color: #E55473;
+    font-weight: 600;
+}
 
 
 /* Banner Section Css */
@@ -52,15 +77,9 @@
     margin-top: 10px;
     border-radius: 5px;
 }
-
 /* Banner Section Ends Here  */
 
 
-
-/* Main Section Starts */
-/* main {
-    padding: 100px 200px;
-} */
 
 /* Our Featured Flower Section CSS */
 .featuredh3 {
@@ -287,25 +306,27 @@
 /* Footer Section Starts */
 .footertitle {
     font-size: 40px;
-    margin: 0!important;
-    padding: 0!important;
-    
+    margin: 0 !important;
+    padding: 0 !important;
+
 }
 
-.footerp{
-    color: white!important;
-    font-size: 15px!important;
+.footerp {
+    color: white !important;
+    font-size: 15px !important;
 }
 
-footer{
+footer {
     padding: 50px 200px;
     background-color: black;
 }
 
-.footersmall{
+.footersmall {
     text-align: center;
     font-size: 10px;
     font-weight: 400;
     color: white;
     margin-top: 30px;
 }
+
+/* footer section ends  */
